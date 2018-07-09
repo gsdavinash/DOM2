@@ -1,0 +1,8 @@
+<!ELEMENT Students (Student)*>
+<!ELEMENT Student (sid,sname,scourse,age)>
+<!ELEMENT sid (#PCDATA)>
+<!ELEMENT sname (#PCDATA)>
+<!ELEMENT scourse EMPTY>
+<!ELEMENT age ANY>
+<!ATTLIST sname name CDATA #REQUIRED>
+<!ATTLIST scourse branch CDATA #IMPLIED>

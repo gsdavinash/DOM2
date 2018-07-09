@@ -1,0 +1,9 @@
+<!DOCTYPE Students SYSTEM "Student.dtd">
+<Students>
+<Student>
+<sid>601</sid>
+<sname name="avinash">G.S.D.AVINASH</sname>
+<scourse branch="EEE"/>
+<age/>
+</Student>
+</Students>

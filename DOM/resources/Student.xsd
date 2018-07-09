@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="StudentDet"  elementFormDefault="qualified">
+<element name="Students">
+<complexType>
+<sequence>
+<element name="Student">
+<complexType>
+<sequence>
+<element name="sid" type="string"/>
+<element name="sname" type="string"/>
+<element name="scourse">
+<complexType>
+<attribute name="branch" type="string"/>
+</complexType>
+</element>
+
+<element name="age">
+<complexType>
+</complexType>
+</element>
+
+
+</sequence>
+</complexType>
+</element>
+</sequence>
+</complexType>
+</element>
+</schema>
